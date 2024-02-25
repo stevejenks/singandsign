@@ -9,8 +9,8 @@ LOGGER = get_logger(__name__)
 import os
 from supabase import client
 
-SUPABASE_URL = st.secrets["connection.supabase.url"]
-#SUPABASE_URL = "https://kwztayzyjudbycuvvnlw.supabase.co"
+# SUPABASE_URL = st.secrets["connection.supabase.url"]
+SUPABASE_URL = "https://kwztayzyjudbycuvvnlw.supabase.co"
 
 # SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt3enRheXp5anVkYnljdXZ2bmx3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDgyNDg0MzAsImV4cCI6MjAyMzgyNDQzMH0.5vGAUJ0kwj4jxM1pG8yMbmGeyQKJeRWzNxWl8y1K1As"
